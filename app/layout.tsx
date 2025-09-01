@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   title: "Prince Portfolio",
   description: "Personal portfolio of Prince12cyber",
   generator: "Prince Portfolio",
+  icons: {
+    icon: "/182605106.jpeg",
+    apple: "/182605106.jpeg",
+  },
 }
 
 export default function RootLayout({
