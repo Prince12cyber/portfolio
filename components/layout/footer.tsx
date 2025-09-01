@@ -1,5 +1,6 @@
 import { site } from "@/content/site"
 import { Github, Linkedin, Mail } from "lucide-react"
+import { FaWhatsapp } from "react-icons/fa"
 
 export function Footer() {
   const year = new Date().getFullYear()
@@ -34,6 +35,15 @@ export function Footer() {
             aria-label="LinkedIn"
           >
             <Linkedin className="h-5 w-5" />
+          </a>
+          <a
+            className="text-muted-foreground hover:text-foreground"
+            href={`https://wa.me/${site.contact.whatsapp}`}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsapp className="h-5 w-5" />
           </a>
         </div>
       </div>

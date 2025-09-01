@@ -37,11 +37,6 @@ export function Hero() {
             {site.bio}
           </motion.p>
           <motion.div variants={fadeInUp} className="flex items-center gap-3">
-            <Button asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-                Download Resume
-              </a>
-            </Button>
             <Button asChild variant="outline">
               <a href="#contact">Contact Me</a>
             </Button>

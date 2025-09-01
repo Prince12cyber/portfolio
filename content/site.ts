@@ -3,10 +3,11 @@ export const site = {
   title: "Java Developer | MERN Stack Developer",
   bio: "Passionate software developer skilled in Java, Python, DSA, and MERN. I build reliable, scalable products and love shipping clean, maintainable code. I’m interested in computer vision, backend engineering, and modern web apps.",
   contact: {
-    email: "[your email]",
-    github: "[your GitHub]",
-    linkedin: "[your LinkedIn]",
+  email: "prince.kumar1.cs.2022@mitmeerut.ac.in",
+  github: "https://github.com/Prince12cyber",
+  linkedin: "http://www.linkedin.com/in/prince-kumar-228884263",
     phone: "",
+    whatsapp: "/+918092128185", // Added WhatsApp contact
   },
   skills: [
     { name: "Java" },
@@ -22,16 +23,16 @@ export const site = {
       title: "Object Detecting Video Feed",
       description: "Real-time object detection on live video using computer vision.",
       stack: ["Python", "OpenCV", "TensorFlow"],
-      github: "[ADD HERE]",
+  github: "https://github.com/Prince12cyber/Object_detecting_video_feed",
       demo: "[ADD HERE]",
       media: "/object-detection-thumbnail.png",
     },
   ],
   education: {
-    degree: "B.Tech in Computer Science",
-    college: "[Your College Name]",
-    years: "2021–2025",
-    highlights: ["CGPA: [X.Y]/10", "Relevant Courses: DSA, OS, DBMS, CN"],
+  degree: "B.Tech in Computer Science",
+  college: "MIT Meerut",
+  years: "2022–2026",
+  highlights: ["Relevant Courses: DSA, OS, DBMS, CN"],
   },
   experience: [
     // Optional entries, leave empty to hide

@@ -5,7 +5,7 @@ import { Section } from "@/components/layout/section"
 import { site } from "@/content/site"
 import { fadeInUp, scaleOnHover, staggerContainer } from "@/lib/framer-variants"
 import { Button } from "@/components/ui/button"
-import { Github, Play } from "lucide-react"
+import { Github } from "lucide-react"
 
 export function Projects() {
   return (
@@ -43,13 +43,6 @@ export function Projects() {
                     <Button asChild size="sm" variant="outline">
                       <a href={p.github} target="_blank" rel="noreferrer">
                         <Github className="h-4 w-4 mr-1.5" /> GitHub
-                      </a>
-                    </Button>
-                  )}
-                  {p.demo && (
-                    <Button asChild size="sm">
-                      <a href={p.demo} target="_blank" rel="noreferrer">
-                        <Play className="h-4 w-4 mr-1.5" /> Demo
                       </a>
                     </Button>
                   )}
