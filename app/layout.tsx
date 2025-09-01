@@ -8,9 +8,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.app",
+  title: "Prince Portfolio",
+  description: "Personal portfolio of Prince12cyber",
+  generator: "Prince Portfolio",
 }
 
 export default function RootLayout({
